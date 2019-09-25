@@ -1,5 +1,5 @@
 {
-  "name": "relay-compiler",
+  "name": "@entria/relay-compiler",
   "description": "A compiler tool for building GraphQL-driven applications.",
   "version": "6.0.0",
   "keywords": [
@@ -34,5 +34,8 @@
   },
   "peerDependencies": {
     "graphql": "^14.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
